@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana;
+}
+#header {
+    background-color: dimgray;
+}
+#header {
+    height: 6rem;
+}
+#header {
+    border-bottom: 0,5rem solid lightseagreen;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h1 {
+    color: white;
+}
+#title{
+    height: 30.5;
+}
+#title{
+    background-color: lightgray;
+}
+#title{
+    text-align:  center;
+}
+* {
+    margin: 0.5rem;
+}
+#about {
+    display: flex;
+}
+#about img {
+    height: 22.5;
+}
+h3 {
+    color: lightseagreen;
+}
+h3 {
+    width: 11rem;
+}
+h3 {
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+}
+h3 {
+   padding-top: 1rem; 
+}
+#fav {
+    display: flex;
+}
+#fav {
+    justify-content: space-evenly;
+}
+
