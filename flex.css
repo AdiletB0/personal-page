@@ -19,6 +19,7 @@ body {
     color: blue;
     border: 2px dashed blue;
     height: 200px;
+    flex-grow: 1;
 }
 .box1 {
     flex-basis: 233px;
@@ -39,3 +40,4 @@ body {
 .box6 {
     flex-basis: 198px;
 }
+
