@@ -4,10 +4,6 @@
 }
 body {
     font-family: tahoma;
-    display: flex;
-    gap: 1rem ;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .image {
     height: 200px;
@@ -32,8 +28,7 @@ body {
 .container {
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap
 }
 .container > * {
     flex-basis: 200px;
