@@ -1,0 +1,111 @@
+img:nth-of-type(1) {
+    display: none;
+}
+body {
+    background-image: none;
+    opacity: 1;
+}   
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cdn.imgchest.com/files/k739c6daz7q.png);
+    background-repeat: no-repeat;
+    max-width: 1245px;
+    min-height: 912px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+.container > * {
+    border: 2px dashed blue;
+}
+.container {
+    display: grid;
+    grid-template-rows: 39px 105px 95px 310px 45px 315px 55px 110px 110px;
+    grid-template-columns: minmax(20px,225px) minmax(20px,658px) minmax(20px,360px);
+}
+@media (max-width: 500px) {
+   
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+      "eight"
+      "nine";
+    }
+
+}
+
+.box1 {
+    grid-area: one;
+}
+.box2 {
+    grid-area: two;
+}
+.box3 {
+    grid-area: three;
+}
+.box4 {
+    grid-area: four;
+}
+.box5 {
+    grid-area: five;
+}
+.box6 {
+    grid-area: six;
+}
+.box7 {
+    grid-area: seven;
+}
+.box8 {
+    grid-area: eight;
+}
+.box9 {
+    grid-area: nine;
+}
+.container {
+    grid-template-areas:
+  "one one seven"
+  "two eight nine"
+  "two three three"
+  "two four four"
+  "five five five"
+  "six six six";
+}
+ul {
+    flex-direction: column;
+    background-color: #0C54A1;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    font-weight: 400;
+    color: black;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+li {
+    color: #DDBEAA;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid color #DDBEAA;
+}
+span {
+    font-weight: 700;
+    color: red;
+}
+.box2 {
+    grid-row: 2 / 5
+}    
