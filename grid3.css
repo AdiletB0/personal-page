@@ -99,8 +99,9 @@ li {
     font-size: 14px;
     font-family: sans-serif;
     padding: 10px;
+    padding-bottom: 20px;
     text-transform: uppercase;
-    border-bottom: 1px solid color #DDBEAA;
+    border-bottom: 1px solid #DDBEAA;
 }
 span {
     font-weight: 700;
