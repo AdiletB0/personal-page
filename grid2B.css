@@ -30,6 +30,7 @@ body {
    
     .container {
         grid-template-columns: 100%;
+
         grid-template-areas:
       "two"
       "one"
@@ -151,7 +152,7 @@ span {
     padding: 1rem;
     color: #0C54A1;
     font-size: medium;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 .info > * {
     font-size: 15px;
@@ -372,15 +373,11 @@ span {
     justify-content: top;
     align-items: center;
 }
-.ul2 > * {
-    flex-shrink: 1;
-}
 .ul3 {
     flex-direction: column;
     display: flex;
     justify-content: top;
     align-items: center;
-    line-height: 1.15;
 }
 .ul1 > * {
     color: #DA251B;
@@ -388,10 +385,10 @@ span {
     font-weight: 700;
     font-style: normal;
     font-family: sans-serif;
-    padding-right: 50px;
+    padding-right: 49px;
     padding-bottom: 0px;
     padding-top: 10px;
-    padding-left: 9px;
+    padding-left: 6px;
 }
 .ul2 > * {
     color: #777777;
@@ -400,9 +397,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 0px;
-    padding-right: 43px;
+    padding-right: 42px;
 }
 .ul3 > * {
     color: #777777;
@@ -411,9 +408,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 4px;
+    padding-top: 3px;
     padding-left: 0px;
-    padding-right: 1px;
+    padding-right: 0px;
 }
 .size {
     font-weight: 700;
@@ -426,3 +423,18 @@ span {
     border-right: 1px dotted black;
     padding-right: 25px;
 }
+/*
+.ul3 p1::before {
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url("https://max.kg/images/o.png");
+    margin-right: 5px;
+}
+#icon {
+    background-image: url("https://max.kg/images/o.png");
+    width: 19px;
+    height: 19px;
+}
+*/
