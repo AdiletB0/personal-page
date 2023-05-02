@@ -65,8 +65,9 @@ body {
     color: white;
     background-position: center;
     display: flex;
-    align-items: center; /* doesn't work*/
-    justify-content: center; /* center text horizontally */
+    background-blend-mode: multiply; 
+    background-color: grey;
+    justify-content: center; 
 }
 .ul1 {
     background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
