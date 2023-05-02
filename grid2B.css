@@ -151,7 +151,7 @@ span {
     padding: 1rem;
     color: #0C54A1;
     font-size: medium;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 .info > * {
     font-size: 15px;
@@ -196,35 +196,166 @@ span {
     justify-content: center;
     align-items: center;
 }
+.gap0-1 {
+    width: 18px;
+    display: inline-block;
+}
+.gap1 {
+    width: 4px;
+    display: inline-block;
+}
+.gap1-1 {
+    width: 4px;
+    display: inline-block;
+}
+.gap1-2 {
+    width: 6px;
+    display: inline-block;
+}
+.gap1-3 {
+    width: 10px;
+    display: inline-block;
+}
+.gap2-1 {
+    width: 9px;
+    display: inline-block;
+}
+.gap2-2 {
+    width: 5px;
+    display: inline-block;
+}
+.gap2-3 {
+    width: 0px;
+    display: inline-block;
+}
+.gap2-4 {
+    width: 6px;
+    display: inline-block;
+}
+.gap2-5 {
+    width: 61px;
+    display: inline-block;
+}
+.gap3-1 {
+    width: 6px;
+    display: inline-block;
+}
+.gap3-2 {
+    width: 3px;
+    display: inline-block;
+}
+.gap3-3 {
+    width: 4px;
+    display: inline-block;
+}
+.gap3-4 {
+    width: 41px;
+    display: inline-block;
+}
+.gap3-5 {
+    width: 0px;
+    display: inline-block;
+}
+.gap4-1 {
+    width: 12px;
+    display: inline-block;
+}
+.gap4-2 {
+    width: 0px;
+    display: inline-block;
+}
+.gap4-3 {
+    width: 0px;
+    display: inline-block;
+}
+.gap4-4 {
+    width: 0px;
+    display: inline-block;
+}
+.gap4-5 {
+    width: 6px;
+    display: inline-block;
+}
+.gap4-6 {
+    width: 7px;
+    display: inline-block;
+}
+.gap5 {
+    width: 34px;
+    display: inline-block;
+}
+.gap5-1 {
+    width: 9px;
+    display: inline-block;
+}
+.gap5-2 {
+    width: 63px;
+    display: inline-block;
+}
+.gap5-3 {
+    width: 43px;
+    display: inline-block;
+}
+
 #info1 {
-    padding-top: 18px;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 #info2 {
     padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
 #info3 {
-    padding-top: 35px;
+    padding-top: 18px;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
 }
 #info4 {
-    padding-top: 15px;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-left: 38px;
+    padding-bottom: 0px;
 }
 #info5 {
-    padding-top: 15px;
+    padding-top: 23px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
 }
 #color1 {
-    padding-top: 20px;
+    padding-top: 21px;
+    padding-right: 0px;
+    padding-left: 11px;
+    padding-bottom: 0px;
 }
 #color2 {
     padding-top: 0px;
+    padding-right: 17px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 #color3 {
     padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 1px;
+    padding-bottom: 0px;
 }
 #color4 {
     padding-top: 0px;
+    padding-right: 38px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 #color5 {
     padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 .ul1 {
     flex-direction: column;
@@ -241,11 +372,15 @@ span {
     justify-content: top;
     align-items: center;
 }
+.ul2 > * {
+    flex-shrink: 1;
+}
 .ul3 {
     flex-direction: column;
     display: flex;
     justify-content: top;
     align-items: center;
+    line-height: 1.15;
 }
 .ul1 > * {
     color: #DA251B;
@@ -253,10 +388,10 @@ span {
     font-weight: 700;
     font-style: normal;
     font-family: sans-serif;
-    padding-right: 49px;
+    padding-right: 50px;
     padding-bottom: 0px;
     padding-top: 10px;
-    padding-left: 6px;
+    padding-left: 9px;
 }
 .ul2 > * {
     color: #777777;
@@ -265,9 +400,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-left: 0px;
-    padding-right: 42px;
+    padding-right: 43px;
 }
 .ul3 > * {
     color: #777777;
@@ -276,9 +411,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 3px;
+    padding-top: 4px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 1px;
 }
 .size {
     font-weight: 700;
@@ -291,18 +426,3 @@ span {
     border-right: 1px dotted black;
     padding-right: 25px;
 }
-/*
-.ul3 p1::before {
-    content: "";
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    background-image: url("https://max.kg/images/o.png");
-    margin-right: 5px;
-}
-#icon {
-    background-image: url("https://max.kg/images/o.png");
-    width: 19px;
-    height: 19px;
-}
-*/
