@@ -69,7 +69,9 @@ body {
     display: flex;
     background-blend-mode: multiply; 
     background-color: grey;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 .ul1 {
     background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
