@@ -66,6 +66,8 @@ body {
     background-color: grey;
     color: white;
     background-position: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
     background-blend-mode: multiply; 
     background-color: grey;
