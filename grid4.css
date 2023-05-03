@@ -73,21 +73,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-.ul1 {
-    background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-position: center;
-    background-size: cover;
-}
-.ul2 {
-    background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-position: center;
-    background-size: cover;
-}
-.ul3 {
-    background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-position: center;
-    background-size: cover;
-}
 .box6 { 
     display: flex;
     justify-content: center;
