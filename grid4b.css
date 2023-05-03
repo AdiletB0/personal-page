@@ -23,7 +23,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: minmax(20px,50px) minmax(20px,240px) minmax(20px,400px) minmax(20px,50px) minmax(20px,500px) minmax(20px,240px);
+    grid-template-rows: minmax(50px,auto) minmax(240px,auto) minmax(400px,auto) minmax(50px,auto) minmax(500px,auto) minmax(240px,auto);
     grid-template-columns: minmax(20,200px) (200,1100px);
     grid-template-areas:
       "two eight seven"
