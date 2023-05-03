@@ -16,7 +16,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: minmax(39px,auto) minmax(105px,auto) minmax(95px,auto) minmax(310px,auto) minmax(45px,auto) minmax(315px,auto) minmax(55px,auto) minmax(110px,auto) minmax(110px,auto);
+    grid-template-rows: minmax(20px,39px) minmax(20px,105px) minmax(20px,95px) minmax(20px,310px) minmax(20px,45px) minmax(20px,315px) minmax(20px,55px) minmax(20px,110px) minmax(20px,110px);
     grid-template-columns: minmax(20px,225px) minmax(20px,658px) minmax(20px,360px);
     grid-template-areas:
     "one one seven"
@@ -30,7 +30,6 @@ body {
    
     .container {
         grid-template-columns: 100%;
-
         grid-template-areas:
       "two"
       "one"
@@ -152,7 +151,7 @@ span {
     padding: 1rem;
     color: #0C54A1;
     font-size: medium;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 .info > * {
     font-size: 15px;
@@ -373,11 +372,15 @@ span {
     justify-content: top;
     align-items: center;
 }
+.ul2 > * {
+    flex-shrink: 1;
+}
 .ul3 {
     flex-direction: column;
     display: flex;
     justify-content: top;
     align-items: center;
+    line-height: 1.15;
 }
 .ul1 > * {
     color: #DA251B;
@@ -385,10 +388,10 @@ span {
     font-weight: 700;
     font-style: normal;
     font-family: sans-serif;
-    padding-right: 49px;
+    padding-right: 50px;
     padding-bottom: 0px;
     padding-top: 10px;
-    padding-left: 6px;
+    padding-left: 9px;
 }
 .ul2 > * {
     color: #777777;
@@ -397,9 +400,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-left: 0px;
-    padding-right: 42px;
+    padding-right: 43px;
 }
 .ul3 > * {
     color: #777777;
@@ -408,9 +411,9 @@ span {
     font-family: sans-serif;
     font-weight: 400;
     padding-bottom: 0px;
-    padding-top: 3px;
+    padding-top: 4px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 1px;
 }
 .size {
     font-weight: 700;
@@ -423,18 +426,3 @@ span {
     border-right: 1px dotted black;
     padding-right: 25px;
 }
-/*
-.ul3 p1::before {
-    content: "";
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    background-image: url("https://max.kg/images/o.png");
-    margin-right: 5px;
-}
-#icon {
-    background-image: url("https://max.kg/images/o.png");
-    width: 19px;
-    height: 19px;
-}
-*/
