@@ -16,7 +16,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: minmax(20px,39px) minmax(20px,105px) minmax(20px,95px) minmax(20px,310px) minmax(20px,45px) minmax(20px,315px) minmax(20px,55px) minmax(20px,110px) minmax(20px,110px);
+    grid-template-rows: minmax(39px,auto) minmax(105px,auto) minmax(95px,auto) minmax(310px,auto) minmax(45px,auto) minmax(315px,auto) minmax(55px,auto) minmax(110px,auto) minmax(110px,auto);
     grid-template-columns: minmax(20px,225px) minmax(20px,658px) minmax(20px,360px);
     grid-template-areas:
     "one one seven"
