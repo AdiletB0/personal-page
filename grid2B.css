@@ -49,6 +49,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .last {
     flex-basis: 20px;
@@ -84,6 +85,7 @@ body {
     grid-area: eight;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .box9 {
     grid-area: nine;
