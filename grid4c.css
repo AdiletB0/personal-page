@@ -76,7 +76,7 @@ body {
     width: 50px;
     height: 50px;
     text-align: center;
-    position: absolute; /* add 'absolute' to CHILD */
+    position: fixed; /* add 'absolute' to CHILD */
     top: 0px; /* specify distance from 'top' (or 'bottom') */
     right: 0px; /* specify distance from 'right' (or 'left') */
    }  
