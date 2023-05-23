@@ -92,6 +92,41 @@ body {
 }
 .box3 {
     grid-area: three;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#special3-1 {
+    font-family: DejaVu Sans Mono, monospace; 
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+#special3-2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+#special3-3 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+#special3-4 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+#special3-5 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: red;
 }
 .box4 {
     grid-area: four;
@@ -103,6 +138,19 @@ body {
     color: white;
     background-position: center;
     display: flex;
+    flex-direction: column;
+}
+.special4 {
+    font-size: 52px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 700;
+    text-align: center;
+}
+.special4-1 {
+    font-size: 52px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 700;
+    text-align: center;
 }
 .ul1 {
     background-image: url("https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=1600");
@@ -132,6 +180,7 @@ body {
 }
 .box7 {
     grid-area: seven;
+    flex-wrap: wrap;
 }
 .box8 {
     grid-area: eight;
@@ -509,16 +558,6 @@ span {
     border-right: 1px dotted black;
     padding-right: 25px;
 }
-.ul4 > * {
-    color: #DA251B;
-    font-size: 16px;
-    font-style: normal;
-    font-family: sans-serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 .dotted {
     text-decoration: underline;
     text-decoration-style: dotted;
@@ -527,10 +566,29 @@ span {
     justify-content: center;
     flex-direction: column;
 }
-#special {
-    height: 600px;
-    margin-bottom: -50px;
+.special7 {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #333333;
 }
-#special2 {
-    margin-top: -280px;
+.box7 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dotted {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #DA251B;
 }
