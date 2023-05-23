@@ -30,6 +30,7 @@ body {
    
     .container {
         grid-template-columns: 100%;
+        grid-template-rows: minmax(105px,auto);
         grid-template-areas:
       "two"
       "one"
@@ -68,9 +69,105 @@ body {
 }
 .box3 {
     grid-area: three;
+    display: flex;
+    justify-content: space-around;
+}
+#special3-1 {
+    font-family: DejaVu Sans Mono, monospace; 
+    font-size: 22px;
+    font-weight: 400;
+    height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    margin-right: 17px;
+    margin-left: -11px;
+    color: #ecf0f1;
+}
+#special3-2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin-right: 0px;
+    margin-left: -316px;
+    color: #777777;
+}
+#special3-3 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin-right: -238px;
+    margin-left: 0px;
+    color: rgb(51, 50, 50);
+}
+#special3-4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin-right: -236px;
+    margin-left: 0px;
+    color:#ecf0f1;
+}
+#special3-5 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    margin-right: -150px;
+    margin-left: 0px;
+    text-decoration: underline;
+    color: red;
 }
 .box4 {
     grid-area: four;
+}
+.special4 {
+    font-size: 52px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 700;
+    padding-top: 42px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 49px;
+    margin-left: -421px;
+    margin-bottom: 0px;
+    margin-top: 49px;
+    text-align: center;
+}
+.special4-1 {
+    font-size: 52px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 49px;
+    margin-left: -482px;
+    margin-bottom: 0px;
+    margin-top: -16px;
+    text-align: center;
 }
 .box5 {
     grid-area: five;
@@ -485,9 +582,82 @@ span {
     border-right: 1px dotted black;
     padding-right: 25px;
 }
-.ul14 > * {
-    display: flex;
-}
 .last {
     display: flex;
+}
+.special7 {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.box7 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#special7-1 {
+    padding-bottom: 0px;
+    padding-top: 7px;
+    padding-left: 45px;
+    padding-right: 8px;
+    color: #777777;
+}
+#special7-2 {
+    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 2px;
+    color: #777777;
+}
+#special7-3 {
+    padding-bottom: 0px;
+    padding-top: 7px;
+    padding-left: 43px;
+    padding-right: 0px;
+    color: #777777;
+}
+.box9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.dotted {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #DA251B;
+}
+#special9-1 {
+    padding-bottom: 23px;
+    padding-top: 16px;
+    padding-left: 49px;
+    padding-right: 0px;
+    margin-right: -21px;
+    margin-left: 0px;
+    margin-top: -2px;
+    margin-bottom: 12px;
+}
+#special9-2 {
+    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 11px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -23px;
+    margin-bottom: 0px;
+}
+#special9-3 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -1px;
+    margin-bottom: 13px;
 }
