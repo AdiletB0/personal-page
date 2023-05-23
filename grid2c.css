@@ -71,6 +71,7 @@ body {
     grid-area: three;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #special3-1 {
     font-family: DejaVu Sans Mono, monospace; 
@@ -140,6 +141,7 @@ body {
 }
 .box4 {
     grid-area: four;
+    flex-wrap: wrap;
 }
 .special4 {
     font-size: 52px;
@@ -177,6 +179,7 @@ body {
 }
 .box7 {
     grid-area: seven;
+    flex-wrap: wrap;
 }
 .box8 {
     grid-area: eight;
