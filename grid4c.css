@@ -59,6 +59,7 @@ body {
    
     .container {
         grid-template-columns: 100%;
+        grid-template-rows: minmax(240px,auto);
         grid-template-areas:
       "two"
       "eight"
